@@ -46,6 +46,7 @@ class TweetCell: DatasourceCell {
         let tv = UITextView()
         tv.font = UIFont.systemFont(ofSize: 15)
         tv.backgroundColor = .clear
+        tv.isEditable = false
         return tv
     }()
     

@@ -85,6 +85,7 @@ class UserCell: DatasourceCell {
         tv.text = "iPhone, iPad, iOS Programming Community. Join us to learn Swift, Objective-C and build iOS apps!"
         tv.font = UIFont.systemFont(ofSize: 15)
         tv.backgroundColor = .clear
+        tv.isEditable = false
         return tv
     }()
     
